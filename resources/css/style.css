@@ -74,6 +74,20 @@ body {
     letter-spacing: 2px;
 }
 
+.nav-menu a:link,
+.nav-menu a:visited {
+    color: rgb(172, 172, 172);
+}
+
+.nav-menu a:hover,
+.nav-menu a:active {
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    font-size: 15px;
+    -webkit-transition: font-size, 0.2s, color 0.2s;
+    transition: font-size, 0.2s, color 0.2s;
+}
+
 .imhere h2 {
     color: #fff;
     text-align: center;
@@ -200,8 +214,8 @@ body {
 
 .section-3 {
     background-color: #fff;
-    height: 710px;
-    width: auto;
+    height: 100%;
+    width: 100%;
 }
 
 .section-3 h1 {
@@ -261,6 +275,7 @@ body {
     letter-spacing: 2px;
     width: 50%;
     line-height: 30px;
+    margin-bottom: 14%;
 }
 
 .develop p {
@@ -281,7 +296,7 @@ body {
 .hire {
     background-color: #1a1a1a;
     width: 100%;
-    height: 500px;
+    height: 100%;
 }
 
 .help h2 {
@@ -309,19 +324,44 @@ body {
 }
 
 .contact-button {
-    margin-top: 25px;
-    font-size: 90%;
+    margin-top: 45px;
+    font-size: 80%;
     border: 1px solid #fff;
     color: #fff;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     width: 15%;
-    padding: 1% 0;
+    padding: 1.5% 0;
+    margin-bottom: 12%;
 }
 
 .contact-button h2 {
     font-weight: 300;
+}
+
+.contact-button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-button:link,
+.contact-button:visited,
+.contact-button a:link,
+.contact-button a:visited {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.contact-button:hover,
+.contact-button:active,
+.contact-button a:hover,
+.contact-button a:active {
+    text-decoration: none;
+    color: #1a1a1a;
+    background-color: #fff;
+    -webkit-transition: background-color 0.2s, color 0.2s;
+    transition: background-color 0.2s, color 0.2s;
 }
 
 
@@ -332,7 +372,7 @@ body {
 
 .mylife {
     width: 90%;
-    height: 500px;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -368,12 +408,37 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 15%;
-    padding: 1% 1%;
+    padding: 2% 1%;
+    margin-bottom: 5%;
 }
 
 .insta-button h2 {
     font-weight: 300;
-    font-size: 150%;
+    font-size: 100%;
+}
+
+.insta-button a {
+    text-decoration: none;
+    color: black;
+}
+
+.insta-button:link,
+.insta-button:visited,
+.insta-button a:link,
+.insta-button a:visited {
+    background-color: #fff;
+    color: #1a1a1a;
+}
+
+.insta-button:hover,
+.insta-button:active,
+.insta-button a:hover,
+.insta-button a:active {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1a1a1a;
+    -webkit-transition: background-color 0.2s, color 0.2s;
+    transition: background-color 0.2s, color 0.2s;
 }
 
 
@@ -382,7 +447,7 @@ body {
 footer {
     background-color: #1a1a1a;
     width: 100%;
-    height: 400px;
+    height: 500px;
 }
 
 .build-footer h1 {
@@ -405,4 +470,24 @@ footer {
     padding-top: 0%;
     font-size: 40px;
     font-weight: 700;
+}
+
+.nav-menu2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-menu2 li {
+    display: inline-block;
+    padding-right: 50px;
+}
+
+.nav-menu2 {
+    margin-top: 40px;
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-align: center;
 }
