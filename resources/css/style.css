@@ -34,7 +34,6 @@ body {
     padding: 0;
 }
 
-
 /*MENU*/
 
 .section-1 {
@@ -117,7 +116,6 @@ body {
     padding: 0 3%;
 }
 
-
 /*Section 2*/
 
 .section-2 {
@@ -148,7 +146,6 @@ body {
     line-height: 45px;
     padding-bottom: 5%;
 }
-
 
 /*Projects*/
 
@@ -212,7 +209,6 @@ body {
     font-size: 12px;
     padding: 16px 32px;
 }
-
 
 /*Section 3 */
 
@@ -294,7 +290,6 @@ body {
     line-height: 30px;
 }
 
-
 /*Hire*/
 
 .hire {
@@ -370,9 +365,7 @@ body {
     transition: background-color 0.2s, color 0.2s;
 }
 
-
 /* #EDEEEF */
-
 
 /*LIFE*/
 
@@ -448,7 +441,6 @@ body {
     transition: background-color 0.2s, color 0.2s;
 }
 
-
 /*FOOTER*/
 
 footer {
@@ -465,7 +457,7 @@ footer {
     font-weight: 200;
     padding-top: 5%;
     font-style: italic;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .build-footer2 h2 {
