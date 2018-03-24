@@ -75,12 +75,16 @@ body {
 }
 
 .nav-menu a:link,
-.nav-menu a:visited {
+.nav-menu a:visited,
+.nav-menu2 a:link,
+.nav-menu2 a:visited {
     color: rgb(172, 172, 172);
 }
 
 .nav-menu a:hover,
-.nav-menu a:active {
+.nav-menu a:active,
+.nav-menu2 a:hover,
+.nav-menu2 a:active {
     text-decoration: none;
     color: rgb(252, 252, 252);
     font-size: 15px;
@@ -332,17 +336,19 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 15%;
-    padding: 1.5% 0;
     margin-bottom: 12%;
 }
 
 .contact-button h2 {
     font-weight: 300;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .contact-button a {
     text-decoration: none;
     color: #fff;
+    height: 30%;
 }
 
 .contact-button:link,
@@ -408,13 +414,14 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 15%;
-    padding: 2% 1%;
+    padding: 0 1%;
     margin-bottom: 5%;
 }
 
 .insta-button h2 {
     font-weight: 300;
     font-size: 100%;
+    padding: 10% 0;
 }
 
 .insta-button a {
